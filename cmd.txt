@@ -1,0 +1,5 @@
+python endpoints.py https://startcoding.co.in/ --max-pages 100 --delay 2 --output startcoding_endpoints.txt
+python3 webscrape.py https://www.electronic-festivals.com/event/i-am-hardstyle-germany --max-pages 100 --delay 2 --output electronic
+python3 webscrape.py https://startcoding.co.in/ --max-pages 100 --delay 2 --output coded
+streamlit run streamlit.py
+python3 webscrape.py https://www.jagrutirehab.org/rehabilitation-centre-in-mumbai.html --max-pages 100 --delay 2 --output jagrutirehab

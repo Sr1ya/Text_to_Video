@@ -174,3 +174,4 @@ cython_debug/
 .pypirc
 voiceover.mp3
 output_video.mp4
+text_to_video.py

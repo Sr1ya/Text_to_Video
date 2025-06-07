@@ -1,0 +1,24 @@
+Step1
+Enter the url and the path without "<>"
+python3 webscrape.py <url of the website> --max-pages 100 --delay 2 --output <name of the folder to save>
+
+Then enter the url of the website.
+
+Step2
+Update the generate index path with scraped_data
+LOC - 86
+data_directory = "/home/sriya/StartCoding/startCoding_Video_Model/scraped_data"  
+# Update this path of whatever you have renamed.
+
+
+Then run the script:
+
+python3 generate_index.py
+
+
+* This script will read the scraped data and generate an index used for generating the video.
+
+Step3
+
+python3 video_generator.py
+Then enter the prompt

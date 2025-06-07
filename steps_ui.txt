@@ -1,0 +1,20 @@
+Step1
+
+streamlit run streamlit_input.py
+
+Step2
+Update the generate index path with scraped_data
+LOC - 86
+data_directory = "/home/sriya/StartCoding/startCoding_Video_Model/scraped_data"  # Update this path if needed
+
+
+Then run the script:
+
+python3 generate_index.py
+
+
+* This script will read the scraped data and generate an index used for generating the video.
+
+Step3
+
+streamlit run streamlit_output.py
